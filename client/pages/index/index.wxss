@@ -1,0 +1,41 @@
+/* client/pages/index/index.wxss */
+.search {
+	width: 80%;
+}
+.search_arr {
+	margin-left: 20rpx;
+	border: 1px solid #d0d0d0;
+	border-radius: 10rpx;
+}
+.search_arr input {
+	margin-left: 60rpx;
+	height: 60rpx;
+	border-radius: 5px;
+}
+.bc_text {
+	margin-top: 34rpx;
+	height: 68rpx;
+	line-height: 68rpx;
+}
+
+.sousuo {
+	margin-left: 15rpx;
+	width: 15%;
+	border: 1px solid #d0d0d0;
+	border-radius: 10rpx;
+	text-align: center;
+	line-height: 150%;
+}
+.page_row {
+	display: flex;
+	flex-direction: row;
+}
+.searchcion {
+	position: absolute;
+	left: 25rpx;
+	z-index: 2;
+	margin: 10rpx 10rpx 10rpx 10rpx;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
